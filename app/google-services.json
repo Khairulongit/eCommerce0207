@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "628368125459",
+    "firebase_url": "https://kotlinstarted0412-default-rtdb.firebaseio.com",
+    "project_id": "kotlinstarted0412",
+    "storage_bucket": "kotlinstarted0412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628368125459:android:da2f133930fe02b85019e6",
+        "android_client_info": {
+          "package_name": "com.inthenameofallah.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628368125459-tf34ndfk08vos6a5dfoaf90io8ptevv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGqkHAkFCYjLy4bIWCqtIvJfXgs3Fm0_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628368125459-tf34ndfk08vos6a5dfoaf90io8ptevv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628368125459:android:59c85056bdcfe6cf5019e6",
+        "android_client_info": {
+          "package_name": "com.inthenameofallah.instakotlin0408"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628368125459-tf34ndfk08vos6a5dfoaf90io8ptevv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGqkHAkFCYjLy4bIWCqtIvJfXgs3Fm0_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628368125459-tf34ndfk08vos6a5dfoaf90io8ptevv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

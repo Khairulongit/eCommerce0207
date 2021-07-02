@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarnewmade"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/white"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+    </androidx.appcompat.widget.Toolbar>
+
+<!--    android:layout_height="?attr/actionBarSize"-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/rltv3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:gravity="center_vertical">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/search_product_name"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:hint="Product Name"-->
+<!--            android:padding="9dp"-->
+<!--            android:textColorHint="@color/black"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold">-->
+
+<!--        </EditText>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/search_product"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_toRightOf="@id/search_product_name"-->
+<!--            android:background="@color/colorPrimaryDark"-->
+<!--            android:padding="9dp"-->
+<!--            android:text="Search"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textStyle="bold">-->
+
+<!--        </Button>-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@color/purple_700"-->
+<!--        app:titleTextColor="@color/white"-->
+<!--        android:id="@+id/custom_toolbar">-->
+
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_below="@+id/recycle_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/toolbarnewmade"
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:id="@+id/nointenet"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:foregroundGravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone"
+        android:src="@drawable/nointernet">
+
+    </ImageView>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:outlineSpotShadowColor="@color/white"
+        app:fab_backgroundColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignParentRight="true"
+        android:contentDescription="Add New"
+        android:src="@drawable/ic_baseline_add_24" />
+</RelativeLayout>

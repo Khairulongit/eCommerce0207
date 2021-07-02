@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<!--    <item-->
+<!--        android:id="@+id/searchmenu"-->
+<!--        android:icon="@drawable/ic_baseline_search_24"-->
+<!--        android:title="Search Menu"-->
+<!--        app:actionViewClass="androidx.appcompat.widget.SearchView"-->
+<!--        app:showAsAction="always" >-->
+<!--    </item>-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/nav_cart"
+            android:iconTint="@color/white"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_myorders"
+            android:icon="@drawable/neworders"
+            android:iconTint="@color/white"
+
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_manageprd"
+            android:icon="@drawable/category"
+            android:iconTint="@color/white"
+            android:title="Manage Products" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:iconTint="@color/white"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_neworders"
+            android:icon="@drawable/neworders"
+            android:iconTint="@color/white"
+            android:title="New Orders" />
+
+        <item
+            android:id="@+id/nav_pendingdelivey"
+            android:icon="@drawable/pendingdelivery"
+            android:iconTint="@color/white"
+            android:title="Pending Delivery" />
+
+        <item
+            android:id="@+id/nav_delivered"
+            android:icon="@drawable/ic_baseline_delivery_dining_24"
+            android:iconTint="@color/white"
+            android:title="Delivered Orders" />
+
+        <item
+            android:id="@+id/nav_canorders"
+            android:icon="@drawable/cancelledorders"
+            android:iconTint="@color/white"
+            android:title="Cancelled Orders" />
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@color/white"
+            android:title="Logout" />
+    </group>
+
+</menu>

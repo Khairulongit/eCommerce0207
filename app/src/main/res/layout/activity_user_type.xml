@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ecommercepng"
+    tools:context=".UserTypeActivity">
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/purple_200"
+        android:text="I am An Admin"
+        android:textColor="#680B0B"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </com.rey.material.widget.Button>
+
+
+    <com.rey.material.widget.Button
+        android:id="@+id/seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am A Seller"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/admin"
+        android:textSize="20sp"
+        android:background="@color/purple_200">
+
+    </com.rey.material.widget.Button>
+
+
+    <TextView
+        android:id="@+id/buyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="I am A Buyer"
+        android:textColor="#FF3D00"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+</RelativeLayout>
