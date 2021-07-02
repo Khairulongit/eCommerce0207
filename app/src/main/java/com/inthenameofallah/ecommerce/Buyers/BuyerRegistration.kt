@@ -36,6 +36,9 @@ class BuyerRegistration : AppCompatActivity() {
         binding = ActivityBuyerRegistrationBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // testing github
+
+
 
         val networkConnection = NetworkConnection(applicationContext)
         networkConnection.observe(this, Observer { isConnected->
